@@ -6,7 +6,7 @@ html, body {
 body {
     background-color: aqua;
     margin: 0;
-    padding: 0;
+    padding: 32px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
@@ -55,6 +55,6 @@ body {
 .list-item__action {
     display: flex;
     justify-content: space-evenly;
-   background-color: rgb(244, 242, 242);
+    background-color: rgb(244, 242, 242);
     padding: 20px;
 }
