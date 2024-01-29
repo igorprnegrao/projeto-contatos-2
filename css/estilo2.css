@@ -1,0 +1,30 @@
+@charset "UTF-8";
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main-title {
+    color: #385555;
+}
+
+.list {
+    width: 90%;
+    max-width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    list-style-type: none;
+}
+
+.list-item {
+    flex-basis: 280px;
+    background-color: white;
+}
